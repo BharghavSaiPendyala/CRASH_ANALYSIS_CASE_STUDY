@@ -1,0 +1,55 @@
+2025-01-31 01:36:50,136 - car_crash_analysis.main - INFO - 
+============================================================
+============================================================
+============================================================
+============================================================
+============================================================
+============================================================ - /Users/bharghavpendyala/Desktop/Archive/src/main.py:36
+2025-01-31 01:36:50,136 - car_crash_analysis.main - INFO - Starting Car Crash Analysis application - /Users/bharghavpendyala/Desktop/Archive/src/main.py:37
+2025-01-31 01:36:50,136 - car_crash_analysis.main - INFO - Loading configuration from /Users/bharghavpendyala/Desktop/Archive/config/config.yaml - /Users/bharghavpendyala/Desktop/Archive/src/main.py:27
+2025-01-31 01:36:50,137 - car_crash_analysis.main - INFO - Initializing Spark session - /Users/bharghavpendyala/Desktop/Archive/src/main.py:44
+2025-01-31 01:36:51,073 - car_crash_analysis.main - INFO - Initializing CrashAnalyzer - /Users/bharghavpendyala/Desktop/Archive/src/main.py:49
+2025-01-31 01:36:51,073 - car_crash_analysis.CrashAnalyzer - INFO - Starting to load input DataFrames - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:34
+2025-01-31 01:36:55,169 - car_crash_analysis.CrashAnalyzer - INFO - Successfully loaded all input DataFrames - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:42
+2025-01-31 01:36:55,169 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of male fatalities - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:61
+2025-01-31 01:36:56,794 - car_crash_analysis.CrashAnalyzer - INFO - Completed male fatalities analysis. Found 0 crashes - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:70
+2025-01-31 01:36:56,794 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of two wheeler crashes - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:90
+2025-01-31 01:36:57,596 - car_crash_analysis.CrashAnalyzer - INFO - Completed two wheeler crash analysis. Found 784 crashes - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:96
+2025-01-31 01:36:57,596 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of top 5 vehicle makes in fatal crashes - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:116
+2025-01-31 01:36:59,402 - car_crash_analysis.CrashAnalyzer - INFO - Completed top 5 makes analysis. Results: ['CHEVROLET', 'FORD', 'DODGE', 'FREIGHTLINER', 'NISSAN'] - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:133
+2025-01-31 01:36:59,402 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of hit and run cases with valid licenses - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:153
+2025-01-31 01:36:59,956 - car_crash_analysis.CrashAnalyzer - INFO - Completed hit and run analysis. Found 176 cases - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:162
+2025-01-31 01:36:59,956 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of states with highest non-female accidents - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:182
+2025-01-31 01:37:00,548 - car_crash_analysis.CrashAnalyzer - INFO - Completed state analysis. State with highest non-female accidents: TX - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:191
+2025-01-31 01:37:00,548 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of vehicle makes contributing to injuries - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:211
+2025-01-31 01:37:01,366 - car_crash_analysis.CrashAnalyzer - INFO - Completed vehicle makes analysis. 3rd to 5th ranked makes: ['TOYOTA', 'DODGE', 'NISSAN'] - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:222
+2025-01-31 01:37:01,366 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of ethnic groups per vehicle body style - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:242
+2025-01-31 01:37:02,283 - car_crash_analysis.CrashAnalyzer - INFO - Completed ethnic groups analysis. Found mappings for 16 body styles - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:260
+2025-01-31 01:37:02,283 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of zip codes with alcohol-related crashes - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:281
+2025-01-31 01:37:03,202 - car_crash_analysis.CrashAnalyzer - INFO - Completed zip codes analysis. Top 5 zip codes: ['78521', '76010', '79936', '79938', '78753'] - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:301
+2025-01-31 01:37:03,202 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of crashes with no property damage but high damage level - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:322
+2025-01-31 01:37:03,862 - car_crash_analysis.CrashAnalyzer - INFO - Completed no damage crashes analysis. Found 6 crashes - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:349
+2025-01-31 01:37:03,863 - car_crash_analysis.CrashAnalyzer - INFO - Starting analysis of speed-related offenses - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:375
+2025-01-31 01:37:05,629 - car_crash_analysis.CrashAnalyzer - INFO - Completed speed-related offenses analysis. Top makes: ['FORD', 'CHEVROLET', 'TOYOTA', 'DODGE', 'NISSAN'] - /Users/bharghavpendyala/Desktop/Archive/src/analysis/crash_analyzer.py:424
+2025-01-31 01:37:05,630 - car_crash_analysis.main - INFO - Started Writing Results of analysis_1 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,630 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_1 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_1 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,630 - car_crash_analysis.main - INFO - Started Writing Results of analysis_2 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,631 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_2 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_2 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,631 - car_crash_analysis.main - INFO - Started Writing Results of analysis_3 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,631 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_3 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_3 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,631 - car_crash_analysis.main - INFO - Started Writing Results of analysis_4 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,631 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_4 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_4 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,631 - car_crash_analysis.main - INFO - Started Writing Results of analysis_5 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,632 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_5 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_5 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,632 - car_crash_analysis.main - INFO - Started Writing Results of analysis_6 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,632 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_6 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_6 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,632 - car_crash_analysis.main - INFO - Started Writing Results of analysis_7 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,633 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_7 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_7 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,633 - car_crash_analysis.main - INFO - Started Writing Results of analysis_8 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,633 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_8 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_8 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,633 - car_crash_analysis.main - INFO - Started Writing Results of analysis_9 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,634 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_9 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_9 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,634 - car_crash_analysis.main - INFO - Started Writing Results of analysis_10 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:71
+2025-01-31 01:37:05,634 - car_crash_analysis.main - INFO - Completed Writing Results of analysis_10 to /Users/bharghavpendyala/Desktop/Archive/output/analysis_10 - /Users/bharghavpendyala/Desktop/Archive/src/main.py:75
+2025-01-31 01:37:05,634 - car_crash_analysis.main - INFO - Analysis complete! - /Users/bharghavpendyala/Desktop/Archive/src/main.py:81
+2025-01-31 01:37:06,631 - py4j.clientserver - INFO - Closing down clientserver connection - /opt/homebrew/Cellar/apache-spark/3.5.4/libexec/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py:543
