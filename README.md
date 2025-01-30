@@ -1,4 +1,4 @@
-# Car Crash Analysis Project
+# Crash Analysis Case Study Project
 
 ## Overview
 This project analyzes vehicle crash data using Apache Spark to derive various insights about accidents, vehicles, and drivers. The analysis includes studying fatalities, vehicle types, crash factors, and geographic patterns.
@@ -53,8 +53,8 @@ car_crash_analysis/
 ## Setup
 1. Clone the repository or unzip the car_crash_analysis folder locally:
 ```bash
-git clone [repository-url]
-cd car_crash_analysis
+git clone https://github.com/BharghavSaiPendyala/CRASH_ANALYSIS_CASE_STUDY.git
+cd CRASH_ANALYSIS_CASE_STUDY
 ```
 
 2. Create a virtual environment and activate it:
