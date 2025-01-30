@@ -6,7 +6,6 @@ from analysis.crash_analyzer import CrashAnalyzer
 from utils.result_writer import ResultWriter
 from utils.spark_helper import SparkHelper
 from utils.logger import setup_logging, get_logger
-from constants.constants import *
 
 # Setup logging at the start
 setup_logging()
