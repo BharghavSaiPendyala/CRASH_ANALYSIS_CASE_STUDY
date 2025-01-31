@@ -1,4 +1,4 @@
-# Crash Analysis Case Study Project
+# Car Crash Analysis Project
 
 ## Overview
 This project analyzes vehicle crash data using Apache Spark to derive various insights about accidents, vehicles, and drivers. The analysis includes studying fatalities, vehicle types, crash factors, and geographic patterns.
@@ -36,25 +36,30 @@ car_crash_analysis/
 │   |── .gitkeep
 │   └── car_crash_analysis.log
 │
-└── src/
-    ├── __init__.py
-    ├── main.py            # Main execution script
-    ├── analysis/          # Analysis modules
-    │   ├── __init__.py
-    │   └── crash_analyzer.py
-    └── utils/             # Utility modules
-        ├── __init__.py
-        ├── spark_helper.py
-        ├── result_writer.py
-        └── logger.py
+├── src/
+│   ├── __init__.py
+│   ├── main.py            # Main execution script
+│   ├── analysis/          # Analysis modules
+│   │   ├── __init__.py
+│   │   └── crash_analyzer.py
+│   └── utils/             # Utility modules
+│       ├── __init__.py
+│       ├── spark_helper.py
+│       ├── result_writer.py
+│       └── logger.py
+│
+└── output/
+    └── analysis/          # Results for each analysis
+       └── results.yaml
+    
 
 ```
 
 ## Setup
 1. Clone the repository or unzip the car_crash_analysis folder locally:
 ```bash
-git clone https://github.com/BharghavSaiPendyala/CRASH_ANALYSIS_CASE_STUDY.git
-cd CRASH_ANALYSIS_CASE_STUDY
+git clone [repository-url]
+cd car_crash_analysis
 ```
 
 2. Create a virtual environment and activate it:
@@ -75,14 +80,14 @@ pip install -r requirements.txt
 Update `config/config.yaml` with the appropriate paths:
 ```yaml
 input_paths:
-  charges: "path/to/charges.csv"
+  charges: "path/to/charges.csv" #Currently it is in Data Folder
   damages: "path/to/damages.csv"
   endorse: "path/to/endorse.csv"
   primary_person: "path/to/primary_person.csv"
   restrict: "path/to/restrict.csv"
   units: "path/to/units.csv"
 
-output_path: "path/to/output/"
+output_path: "path/to/output/" #Currently results are stored in output folder
 ```
 
 ### Logging
