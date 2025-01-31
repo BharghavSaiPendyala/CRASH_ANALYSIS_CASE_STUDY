@@ -16,15 +16,10 @@ This project analyzes vehicle crash data using Apache Spark to derive various in
 ## Requirements
 - Python 3.8+ (I've used 3.12.7)
 - Apache Spark 3.0+ (I've used 3.5.4)
-- PyYAML
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Project Structure
 ```
-car_crash_analysis/
+CRASH_ANALYSIS_CASE_STUDY/
 │
 ├── README.md               # Project documentation
 ├── requirements.txt        # Python dependencies
@@ -58,8 +53,8 @@ car_crash_analysis/
 ## Setup
 1. Clone the repository or unzip the car_crash_analysis folder locally:
 ```bash
-git clone [repository-url]
-cd car_crash_analysis
+git clone https://github.com/BharghavSaiPendyala/CRASH_ANALYSIS_CASE_STUDY.git
+cd CRASH_ANALYSIS_CASE_STUDY
 ```
 
 2. Create a virtual environment and activate it:
